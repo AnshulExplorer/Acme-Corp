@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "department": "Engineering",
+      "location": "Remote",
+      "description": "We're looking for a skilled frontend developer with experience in React.js and modern CSS."
+    },
+    {
+      "id": 2,
+      "title": "UX Designer",
+      "department": "Design",
+      "location": "Bangalore",
+      "description": "Design beautiful interfaces and delightful user experiences."
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "department": "Engineering",
+      "location": "Mumbai",
+      "description": "Build scalable APIs and manage databases."
+    },
+    {
+      "id": 4,
+      "title": "Product Manager",
+      "department": "Product",
+      "location": "Remote",
+      "description": "Lead product development and strategy."
+    },
+    {
+      "id": 5,
+      "title": "Graphic Designer",
+      "department": "Design",
+      "location": "Delhi",
+      "description": "Create stunning visuals for our brand."
+    }
+  ]

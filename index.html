@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acme Corp - Open Positions</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/logo.png" alt="Acme Corp Logo" class="logo">
+    <h1>Open Positions at Acme Corp</h1>
+    <p>Join our team and shape the future</p>
+  </header>
+  <main>
+    <section class="jobs">
+      <div class="filters">
+        <select id="departmentFilter" onchange="filterJobs()">
+          <option value="all">All Departments</option>
+        </select>
+        <input type="text" id="titleSearch" placeholder="Search by job title..." oninput="filterJobs()">
+      </div>
+      <div class="loader" id="loader"></div>
+      <div class="job-list" id="jobList"></div>
+    </section>
+    <div class="modal" id="jobModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()" aria-label="Close modal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDepartment"></p>
+        <p id="modalLocation"></p>
+        <p id="modalDescription"></p>
+        <a href="#" id="applyLink" class="apply-btn">Apply Now</a>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
