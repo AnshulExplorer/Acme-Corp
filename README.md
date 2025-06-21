@@ -19,7 +19,9 @@ Users can browse available job listings, search by title, filter by department, 
 
 ### 📸 Screenshot
 
-![Job Board Screenshot](ss.png)
+![Job Board Preview](ss.png)
+=======
+
 
 
 ---
